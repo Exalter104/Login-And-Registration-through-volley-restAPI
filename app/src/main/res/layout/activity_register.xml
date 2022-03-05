@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Register"
+android:orientation="vertical"
+android:gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="32dp"/>
+
+    <EditText
+        android:id="@+id/firstnameBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="firstname"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/lastnameBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="lastname"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/usernameBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="username"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/emailBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/passwordBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="pasword"
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/password2Box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Password2"
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/phoneBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="phone"
+        android:minHeight="48dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/registerButton"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click here to login"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:id="@+id/loginLink"
+        android:textColor="#0D47A1"/>
+</LinearLayout>
